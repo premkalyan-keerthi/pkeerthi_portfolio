@@ -384,7 +384,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 85%;
+  text-align: left;
+  color: black;
+  font-weight: 400;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -397,8 +400,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .tab-panel{
-  width: 32%;
-  margin-left:10px;
+  width: 90%;
+  margin: auto;
 }
 
 .tab-content2{
@@ -458,7 +461,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
 }
+
+.descriptionP{
+  color:black;
+  font-weight: 500;
+}
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);

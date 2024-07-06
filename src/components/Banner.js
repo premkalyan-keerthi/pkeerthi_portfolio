@@ -39,11 +39,12 @@ const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-center">
-                <Col xs={12} md={6} xl={7}>
+                <Row xs={6} xl={6} className="fullStackdev">
+                <Col xs={12} md={6} xl={7} className="portfolioDev">
                     <span className="tagline"> Welcome to my Portfolio</span>
-                    <h1>{`Hi I'm webdecoded `}<span className="wrap"> {text}</span></h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <h1>{`Hi I'm Full Stack `}<span className="wrap"> {text}</span></h1>
+                    <p>4+ years of professional experience in the development and implementation of web applications using React, HTML5, CSS, JavaScript, Python, SQL, ES6, and Restful API.
+                       Capable of adapting and learning the latest technologies with an ability to find balanced technical solutions to business problems.</p>
                     <button onClick={()=> console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>

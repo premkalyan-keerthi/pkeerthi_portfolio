@@ -32,7 +32,8 @@ const NavBar =() => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container className='header'>
         <Navbar.Brand href="#home" className='header_left'>
-            <img src={logo} alt="Logo" />
+            {/* <img src={logo} alt="Logo" /> */}
+            <p style={{color:'white', fontSize: '25px', fontWeight: 'bold'}}>PKeerthi</p>
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse2'>
           <Nav className="me-auto">

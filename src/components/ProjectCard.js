@@ -1,18 +1,18 @@
 import { Col } from "react-bootstrap";
 import React from "react";
 
-const ProjectCard = ({ title, description, imgUrl, tools }) => {
+const ProjectCard = ({ title, description, imgUrl, tools, id }) => {
   return (
-    <Col size={12} sm={6} md={4} className="tab-panel">
+    <Col id={`proj - ${id}`} size={12} sm={6} md={4} className="tab-panel">
       <div className="proj-imgbx">
         <h1>{title}</h1>
-        <ol>
+        <ul>
           {description.map((des, index) => (
             <li key={index}>
               <p className="descriptionP">{des}</p>
             </li>
           ))}
-        </ol>
+        </ul>
         <div className="proj-txtx">
           <h1>
             {"Tools - "}

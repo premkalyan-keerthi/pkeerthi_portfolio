@@ -36,10 +36,10 @@ const Skills = () =>{
                             <h2>
                                 Skills
                             </h2>
-                            <p style={{ textAlign: 'center' }}><strong>Programming Languages:</strong> JavaScript, Python, Java, SQL, C.
-Frameworks & DB: ReactJs, NodeJs, ExpressJs, MongoDB, MySQL, Bootstrap <br/><strong>Technologies:</strong> REST APIs, System
-Design, NodeJs, OOPS Concepts, Docker, HTML5, CSS, AWS. <br/><strong>Others:</strong> GitHub, Postman, Linux, Agile, Jenkins,
-SonarQube.</p>
+                            <p style={{ textAlign: 'center' }}><strong>Programming Languages:</strong> JavaScript, Python, Java, SQL, C.<br/>
+                            <strong>Frameworks & DB:</strong> ReactJs, NodeJs, ExpressJs, MongoDB, MySQL, Bootstrap <br/><strong>Technologies:</strong> REST APIs, System
+                            Design, NodeJs, OOPS Concepts, Docker, HTML5, CSS, AWS. <br/><strong>Others:</strong> GitHub, Postman, Linux, Agile, Jenkins,
+                            SonarQube.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image"/>

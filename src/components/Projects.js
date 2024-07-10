@@ -18,10 +18,11 @@ const Projects = () => {
       description: [
         "Designed data models, UI, and developed a web application for Verizon Project Management which helps in handling issues caused in Verizon Project Management using JavaScript, ReactJS, Java, and MySQL",
         "Involved in SDLC life cycle - Designing, Coding and Testing. Build reusable code and libraries for future use. Ensure the technical feasibility of UI/UX designs through the utilization of technologies like REST APIs, JavaScript, PostgresQL,HTML, CSS and Java.",
-        "Designed the user interface and database and integrated the application into Verizon OneFiber application, which provides visibility to the vendor for the diﬀerent milestones of project status(HLD, SiteSurvey, DD, Permitting, Construction Start, Cable Placed, Splice & Test, Close-Out). This tool will improve the credibility of the product, as senior leaders can directly identify any inconsistency between vendor data and Verizon data. I used JavaScript, REST APIs, ReactJS, and PostgresQL."
+        "Designed the user interface and database and integrated the application into Verizon OneFiber application, which provides visibility to the vendor for the diﬀerent milestones of project status(HLD, SiteSurvey, DD, Permitting, Construction Start, Cable Placed, Splice & Test, Close-Out). This tool will improve the credibility of the product, as senior leaders can directly identify any inconsistency between vendor data and Verizon data. I used JavaScript, REST APIs, ReactJS, and PostgresQL.",
       ],
       imgUrl: projImg1,
-      tools: "ReactJS, NodeJS, ExpressJS, HTML, CSS, BootStrap, JavaScript, REST APIs, and PostgresQL.",
+      tools:
+        "ReactJS, NodeJS, ExpressJS, HTML, CSS, BootStrap, JavaScript, REST APIs, and PostgresQL.",
     },
     {
       id: 1,
@@ -29,8 +30,8 @@ const Projects = () => {
       description: [
         "Involved in designing the user interface, creating data models, and building the New Search Tool application from scratch, aimed at eﬃciently retrieving documents. Enhanced the application's speed by developing and optimizing the code. Used ReactJS, Javascript, Python.",
         "As a team member, involved in Architecture calls, sprint planning activities, sprint retrospectives, coordinating with diﬀerent teams to get the issues addressed and resolved and providing status in daily stand ups.",
-        "Crafted a Download dialogue component and APIs for downloading single or multiple documents in various formats, adopted by several web applications to download documents."
-    ],
+        "Crafted a Download dialogue component and APIs for downloading single or multiple documents in various formats, adopted by several web applications to download documents.",
+      ],
       imgUrl: projImg1,
       tools: "ReactJS, NodeJS, ExpressJS, JavaScript, Python, REST APIs",
     },
@@ -45,18 +46,19 @@ const Projects = () => {
       tools: "JavaScript, ReactJS, HTML, CSS, REST APIs, Jest",
     },
     {
-        id: 3,
-        title: "Personal Project-Donor Management System",
-        description: [
-          "Developed frontend, backend & database model",
-          "Implemented JWT (JSON Web Token) authentication for user login.",
-          "Implemented Role-Based Access Control (RBAC) to manage use permissions and access levels.",
-          "Developed header, Footer, User Post, and Upload Form components using react.",
-          "Worked on create order page functionality and summary page.",
-        ],
-        imgUrl: projImg1,
-        tools: "HTML, CSS, BootStrap, JavaScript, ReactJs, NodeJs, ExpressJs and MongoDB",
-      },
+      id: 3,
+      title: "Personal Project-Donor Management System",
+      description: [
+        "Developed frontend, backend & database model",
+        "Implemented JWT (JSON Web Token) authentication for user login.",
+        "Implemented Role-Based Access Control (RBAC) to manage use permissions and access levels.",
+        "Developed header, Footer, User Post, and Upload Form components using react.",
+        "Worked on create order page functionality and summary page.",
+      ],
+      imgUrl: projImg1,
+      tools:
+        "HTML, CSS, BootStrap, JavaScript, ReactJs, NodeJs, ExpressJs and MongoDB",
+    },
   ];
 
   const getProjectSelected = () => {
@@ -76,7 +78,7 @@ const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  
+
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -136,15 +138,16 @@ const Projects = () => {
                         </Nav.Link>
                       </Nav.Item>
                     </Nav>
-                    {projects.map((proj) => (
-                      <ProjectCard {...proj} />
-                    ))}
                   </Tab.Container>
                 </div>
               )}
             </TrackVisibility>
           </Col>
         </Row>
+
+        {projects.map((proj) => (
+          <ProjectCard {...proj} />
+        ))}
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
     </section>

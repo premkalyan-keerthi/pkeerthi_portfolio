@@ -6,7 +6,7 @@ const ProjectCard = ({ title, description, imgUrl, tools, id }) => {
     <Col id={`proj - ${id}`} size={12} sm={6} md={4} className="tab-panel">
       <div className="proj-imgbx">
         <h1>{title}</h1>
-        <ul>
+        <ul key={id}>
           {description.map((des, index) => (
             <li key={index}>
               <p className="descriptionP">{des}</p>

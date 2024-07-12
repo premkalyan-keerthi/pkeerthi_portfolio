@@ -22,7 +22,7 @@ const Projects = () => {
       ],
       imgUrl: projImg1,
       tools:
-        "ReactJS, NodeJS, ExpressJS, HTML, CSS, BootStrap, JavaScript, REST APIs, and PostgresQL.",
+        "ReactJS, NodeJS, ExpressJS, HTML, CSS, BootStrap, JavaScript, Java, REST APIs, MySQL and PostgresQL.",
     },
     {
       id: 1,

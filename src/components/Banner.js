@@ -14,17 +14,19 @@ const Banner = () => {
   const period = 2000;
 
   useEffect(() => {
-    console.log(iterate, delta, "Check");
+    if (text === "") {
+      setIsDeleting(false);
+      setText("W");
+    }
     let ticker = setTimeout(() => {
       tick();
     }, 200);
 
     return () => {
-      //   setTimeout(() => {}, 2000);
       clearInterval(ticker);
-      setIterate(iterate + 1);
     };
-  }, [text, iterate]);
+  }, [text]);
+
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
@@ -45,6 +47,7 @@ const Banner = () => {
       setDelta(500);
     }
   };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -55,10 +58,10 @@ const Banner = () => {
               {`Hi I'm Full Stack `}
               <span className="wrap"> {text}</span>
             </h1>
-            <p style={{fontWeight:"bold"}}>
+            <p style={{ fontWeight: "bold" }}>
               4+ years of professional experience in the development and
               implementation of web applications using React, HTML5, CSS,
-              JavaScript, Python, SQL, ES6, and Restful API. Capable of adapting
+              JavaScript, Java, Python, SQL, ES6, and Restful API. Capable of adapting
               and learning the latest technologies with an ability to find
               balanced technical solutions to business problems.
             </p>

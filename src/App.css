@@ -617,6 +617,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer {
   padding: 0 0 50px 0;
   display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -679,14 +685,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: black;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin-left: 5px;
+  width: 100%;
 }
 
 .education{
@@ -701,7 +710,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: auto;
   border-radius: 5px;
   padding: 16px 15px 1px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 120px;
 }
 
 .edBox{
@@ -716,4 +725,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+.icons-style{
+  cursor: pointer;
 }

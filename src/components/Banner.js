@@ -61,11 +61,16 @@ const Banner = () => {
             <p style={{ fontWeight: "bold" }}>
               4+ years of professional experience in the development and
               implementation of web applications using React, HTML5, CSS,
-              JavaScript, Java, Python, SQL, ES6, and Restful API. Capable of adapting
-              and learning the latest technologies with an ability to find
-              balanced technical solutions to business problems.
+              JavaScript, Java, Python, SQL, ES6, and Restful API. Capable of
+              adapting and learning the latest technologies with an ability to
+              find balanced technical solutions to business problems.
             </p>
-            <button onClick={() => console.log("connect")}>
+            <button
+              className="icons-style"
+              onClick={() => {
+                window.open("mailTo:premkalyan52@gmail.com");
+              }}
+            >
               Let's connect <ArrowRightCircle size={25} />
             </button>
           </Col>

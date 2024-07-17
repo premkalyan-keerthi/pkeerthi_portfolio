@@ -30,10 +30,10 @@ const Footer = () => {
         src={contact}
         alt=""
         onClick={() => {
-          window.open("tel:+4096001193");
+          window.open("tel:+1 (409) 600-1193");
         }}
       />
-      <p>+4096001193</p>
+      <p>+1 (409) 600-1193</p>
     </footer>
   );
 };

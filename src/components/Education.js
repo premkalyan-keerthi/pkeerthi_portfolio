@@ -25,7 +25,7 @@ const Education = () => {
           <span>Aug 2015 - May 2019</span>
         </div>
         <div className="firstPart">
-          <p>Bachelor of Science in Mechanical Engineering</p>
+          <p>Bachelor of Technology in Mechanical Engineering</p>
         </div>
       </div>
     </div>

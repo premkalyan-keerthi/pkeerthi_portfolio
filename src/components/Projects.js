@@ -14,6 +14,21 @@ const Projects = () => {
   const projects = [
     {
       id: 0,
+      title: "Sentara Health - React Developer",
+      description: [
+        "Developed and maintained scalable applications using React, JavaScript, Node.js, and Express.js.",
+        "Experience in building multi-platform device applications with cross-platform compatibility.",
+        "Designed and implemented REST APIs and microservices for efficient communication between systems.",
+        "Proficient in modern JavaScript (ES6/ES7), including asynchronous programming with Promises, async/await, and generator.",
+        "Hands-on experience integrating RESTful and GraphQL APIs into React applications with a strong understanding of microservices architecture.",
+        "Skilled in using Redux for efficient and scalable state management in complex user interfaces.",
+        "Experience working with relational databases such as MySQL and PostgreSQL.",
+      ],
+      imgUrl: projImg1,
+      tools: "ReactJS, NodeJS, ExpressJS, HTML, CSS, BootStrap, JavaScript, Java, REST APIs, MySQL and PostgresQL.",
+    },
+    {
+      id: 1,
       title: "Infosys-Associate Consultant",
       description: [
         "Designed data models, UI, and developed a web application for Verizon Project Management which helps in handling issues caused in Verizon Project Management using JavaScript, ReactJS, Java, and MySQL",
@@ -25,7 +40,7 @@ const Projects = () => {
         "ReactJS, NodeJS, ExpressJS, HTML, CSS, BootStrap, JavaScript, Java, REST APIs, MySQL and PostgresQL.",
     },
     {
-      id: 1,
+      id: 2,
       title: "TCS-Systems Engineer",
       description: [
         "Involved in designing the user interface, creating data models, and building the New Search Tool application from scratch, aimed at eﬃciently retrieving documents. Enhanced the application's speed by developing and optimizing the code. Used ReactJS, Javascript, Python.",
@@ -36,7 +51,7 @@ const Projects = () => {
       tools: "ReactJS, NodeJS, ExpressJS, JavaScript, Python, REST APIs",
     },
     {
-      id: 2,
+      id: 3,
       title: "TCS-Assistant Systems Engineer",
       description: [
         "Involved in end-to-end development of the application. This includes new feature developments, enhancements of the existing features, bug fixes, etc.",

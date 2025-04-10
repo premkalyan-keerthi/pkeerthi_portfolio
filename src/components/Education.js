@@ -10,7 +10,7 @@ const Education = () => {
         </div>
         <div className="firstPart">
           <p>Master of Science in Computer Science</p>
-          <span>3.95 GPA</span>
+          <span>3.80 GPA</span>
         </div>
         <p>
           <b>Coursework: </b> Analysis of Algorithms, Advanced Operating

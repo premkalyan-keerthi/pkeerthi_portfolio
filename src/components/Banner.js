@@ -59,7 +59,7 @@ const Banner = () => {
               <span className="wrap"> {text}</span>
             </h1>
             <p style={{ fontWeight: "bold" }}>
-              4+ years of professional experience in the development and
+              5+ years of professional experience in the development and
               implementation of web applications using React, HTML5, CSS,
               JavaScript, Java, Python, SQL, ES6, and Restful API. Capable of
               adapting and learning the latest technologies with an ability to

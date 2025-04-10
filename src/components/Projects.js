@@ -47,7 +47,7 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Personal Project-Donor Management System",
+      title: "Personal Project-Support Stream",
       description: [
         "Developed frontend, backend & database model",
         "Implemented JWT (JSON Web Token) authentication for user login.",

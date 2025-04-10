@@ -110,7 +110,7 @@ const Projects = () => {
                               .scrollIntoView({ behavior: "smooth" });
                           }}
                         >
-                          Infosys AC
+                          Sentara Health
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
@@ -123,7 +123,7 @@ const Projects = () => {
                               .scrollIntoView({ behavior: "smooth" });
                           }}
                         >
-                          TCS SE
+                          Infosys AC
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
@@ -136,7 +136,7 @@ const Projects = () => {
                               .scrollIntoView({ behavior: "smooth" });
                           }}
                         >
-                          TCS ASE
+                          TCS SE
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
@@ -146,6 +146,19 @@ const Projects = () => {
                             setTabSelected(3);
                             document
                               .getElementById("proj - 3")
+                              .scrollIntoView({ behavior: "smooth" });
+                          }}
+                        >
+                          TCS ASE
+                        </Nav.Link>
+                      </Nav.Item>
+                            <Nav.Item>
+                        <Nav.Link
+                          eventKey="fifth"
+                          onClick={() => {
+                            setTabSelected(4);
+                            document
+                              .getElementById("proj - 4")
                               .scrollIntoView({ behavior: "smooth" });
                           }}
                         >
